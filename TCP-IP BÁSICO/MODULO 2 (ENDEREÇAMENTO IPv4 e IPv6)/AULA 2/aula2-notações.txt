@@ -1,0 +1,42 @@
+CIDR E MÁSCARA DE REDE - AULA 2
+///////////////////////////////
+
+* A máscara de rede serve para separar duas partes de um endereço IP
+
+Rede > identifica a rede
+Host > identifica o dispositivo dentro da rede
+
+por exemplo:
+
+IP: 192.168.0.10
+
+[192.168.0] REDE 
+[10] HOST 
+
+Máscara de Rede: 255.255.255.0
+
+192.168.0.10
+11000000.10101000.00000000.00001010 (binário)
+
+255.255.255.0
+11111111.11111111.11111111.00000000 (binário) 
+
+1 = parte da rede
+0 = parte dos hosts
+
+11111111.11111111.11111111 | 00000000
+      REDE                 | HOST
+
+Primeiro endereço seria 192.168.0.0 (endereço da rede) identifica a rede e não pode ser usado por dispositivos
+Último endereço seria 192.168.0.255 (endereço de broadcast) envia pacote para todos os dispositivos da rede e também não pode ser usado
+
+192.168.0.1   até   192.168.0.254 estariam disponiveis para uso
+
+CIDR - Classless Inter-Domain Routing
+
+É um método de designação de endereços IP que utiliza uma notação que combina o IP e a máscara de rede em um único valor, separado 
+por uma barra.
+Ex: 192.168.0.1/24
+
+Isso significa que os 24 primeiros bits são usados para identificar a rede. ou seja, dizer que o edenreço de IP 192.168.0.1 possuí
+a mascara 255.255.255.0 é a mesma coisa que dizer que o IP é 192.168.0.1/24
