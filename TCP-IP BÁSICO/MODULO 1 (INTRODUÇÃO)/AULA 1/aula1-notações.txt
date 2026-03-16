@@ -1,0 +1,30 @@
+INTRODUÇÃO - AULA 1 
+///////////////////
+
+* existem 4 tipos de redes de computadores
+
+- PAN (Personal Area Network)  <10m
+são chamadas de redes PAN aquelas redes que conectam os dispositivos
+eletrônicos que estão bem próximos ao usuário.
+(ex: aparelhos bluetooth, como mouses sem fio e fones de ouvido)
+
+- LAN (Local Area Network)     <10m - 1000m
+são chamadas de LAN, ou Redes Locais, as redes que interligam PC's e 
+dispositivos que estejam dentro do mesmo espaço físico
+(ex: PC's dentro de uma empresa, escola, dispositivos em uma casa)
+
+- MAN (Metropolitan Area Network)     <10km
+são chamadas de redes MAN aquelas que pertencem dentro de uma área
+metropolitana. As redes MAN podem ser usadas para conectar várias redes
+LAN e permitir que pessoas de diferentes prédios se comuniquem e
+compartilhem recursos
+(ex: interligação entre prédios empresariais, redes de transporte
+público onde coordena e monitora veículos em tempo real)
+
+- WAN (Wide Area Network)      <100km
+são chamadas de redes WAN aqueles que vão mais além da MAN e conseguem
+abranger uma área muito maior
+(ex: a Internet)
+
+
+* TCP-IP, basicamente é um conjunto de protocolos de comunicação entre dispositivos na rede 

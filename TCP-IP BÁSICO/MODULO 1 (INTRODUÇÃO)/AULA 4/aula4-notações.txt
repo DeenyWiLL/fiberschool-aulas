@@ -1,0 +1,30 @@
+CAMADAS TCP/IP - AULA 4
+///////////////////////
+
+* O TCP/IP foi desenvolvido pelo Departamento de Defesa dos EUA para especificar como os PC's transferem dados de um dispositivo para outro. o objetivo de desenvolver
+um protocolo de comunicação confíavel e robusto para conectar sistema computacionais. com o tempo, o TCP/IP se tornou a base da Internet.
+
+* no TCP/IP, temos 4 tipos de camadas que são correspondentes as camadas do Modelo OSI
+
+1 - Acesso à Rede (corresponde as camadas Física e Enlace)
+2 - Internet entre redes (corresponde a camada Rede)
+3 - Transporte (corresponde a camada Transporte)
+4 - Aplicação (corresponde as camadas Sessão, Apresentação e Aplicação)
+
+APLICAÇÃO - Responsável por fornecer serviços de rede às aplicações em execução nos dispositivos finais. Ela inclui uma grande variedade de protocolos que permitem
+que diferentes tipos de aplicações, como e-mail, navegação na web, compartilhamento de arquivos, entre outros, funcionem na rede
+Alguns protocolos comuns nesta camadas são o HTTP (Hypertext Transfer Protocol), FTP (File Transfer Protocol), DNS (Domain Name System)
+SMTP (Simple Mail Transfer Protocol), etc.. 
+
+TRANSPORTE - Responsável pela entrega confiável dos dados entre aplicações em execução nos dispositivos finais. Ela garante que os dados sejam entregues
+corretamente, sem perda ou corrupção, e no tempo necessário.
+Alguns protocolos comuns nesta camada são TCP (Transmission Control Protocol), UDP (User Datagram Protocol), etc..
+
+INTERNET (entre redes) - Responsável pelo roteamento de pacotes de dados na rede, ou seja, ela permite que um pacote de dados seja enviado de um ponto a outro
+da rede, independenmente das redes físicas subjacentes que conectam os dois pontos.
+Alguns protocolos comuns nesta camada são IP (Internet Protocol), ICMP (Internet Control Message Protocol), ARP (Address Resolution Protocol), etc..
+
+ACESSO À REDE - Responsável por lidar com os detalhes físicos da transmissão de dados, como o acesso à rede, a transmissão de sinais elétricos e a codificação
+de dados.
+Alguns protocolos mais comuns nesta camada são Ethernet, Wi-Fi, Bluetooth, Token Ring, etc..
+
